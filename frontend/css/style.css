@@ -1,0 +1,40 @@
+body {
+  background: #0b0f1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: #f4c430;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  margin-top: 40px;
+}
+
+.plan {
+  background: #111;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: #f4c430;
+  border: none;
+  cursor: pointer;
+}
