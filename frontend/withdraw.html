@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Withdraw | WealthFx</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Withdraw Funds</h2>
+
+<input id="amount" placeholder="Amount (Min $50)">
+<input id="wallet" placeholder="Wallet Address">
+
+<select id="crypto">
+  <option>USDT</option>
+  <option>BTC</option>
+  <option>ETH</option>
+</select>
+
+<button onclick="withdraw()">Request Withdrawal</button>
+
+<script src="js/api.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
